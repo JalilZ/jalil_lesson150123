@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <a href="second_page.html">Visit second page</a>
+    <br><br>
     <!--radio example: gender-->
     <!--we can do the below without form element, form is used to send data to server-->
     <form>
@@ -21,22 +22,19 @@
         <br>
         <input type="radio" id="other" name="gender" value="other">
         <label for="other">Other/Prefer not to say</label>
-        <br>
-    </form>
-    <br>
-    <form>
+        
 
-    <!--Hobbies-->
+        <br><br>
+        <!--Hobbies-->
         <label for="mySelect">What is your hobby?</label>
         <select id="mySelect" name="Hobbies">
             <option value="football">Football</option>
             <option value="basketball">Basketball</option>
             <option value="volley">Volley</option>
         </select>
-    </form>
-    <br>
-    <form>
-    <!--Cities-->
+
+        <br><br>
+        <!--Cities-->
         <label for="mySelect">What city you are from?</label>
         <select id="mySelect" name="Cities">
             <option value="tel-aviv">Tel-Aviv</option>
@@ -45,20 +43,36 @@
             <option value="eilat">Eilat</option>
             <option value="netanya">Netanya</option>
         </select>
-    </form>
-    <br>
 
-    <form>
-    <!--Colors-->
+        <br><br>
+        <!--Colors-->
         <label for="mySelect">What are your favorite colors?</label>
-        <select id="mySelect" name="Colors">
-            <option value="red">Red</option>
-            <option value="blur">Blue</option>
-            <option value="yellow">Yellow</option>
-            <option value="green">Green</option>
-            <option value="black">black</option>
-        </select>
+        <input type="color" name="color">
+
+
+        <br><br>
+
+        <!--birth date-->
+        <label for="date">What is your Birthdate?</label> 
+        <input type="date" name="date" />
+
+        <br><br>
+        <!--age-->
+        <label for="age">What is your age?</label> 
+        <input type="number" name="age" max="20">
+
+        <br><br>
+
+        <!--submit only sends inputs that have names !!!-->
+        <input type="submit" value="click me to submit" />
+        <input type="reset" value="click me to reset" />
+
     </form>
+    <br><br><br><br>
     
+    
+
+
+
 </body>
 </html>
