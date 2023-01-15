@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .jalilcenter {
+            text-align: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <a href="second_page.html">Visit second page</a>
+    <br><br>
+    <!--radio example: gender-->
+    <!--we can do the below without form element, form is used to send data to server-->
+    <form>
+        <label for="gender">Gender:</label> 
+        <br>
+        <input class="jalilcenter" type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other/Prefer not to say</label>
+        
+
+        <br><br>
+        <!--Hobbies-->
+        <label for="mySelect">What is your hobby?</label>
+        <select id="mySelect" name="Hobbies">
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="volley">Volley</option>
+        </select>
+
+        <br><br>
+        <!--Cities-->
+        <label for="mySelect">What city you are from?</label>
+        <select id="mySelect" name="Cities">
+            <option value="tel-aviv">Tel-Aviv</option>
+            <option value="jerusalem">Jerusalem</option>
+            <option value="haifa">Haifa</option>
+            <option value="eilat">Eilat</option>
+            <option value="netanya">Netanya</option>
+        </select>
+
+        <br><br>
+        <!--Colors-->
+        <label for="mySelect">What are your favorite colors?</label>
+        <input type="color" name="color">
+
+
+        <br><br>
+
+        <!--birth date-->
+        <label for="date">What is your Birthdate?</label> 
+        <input type="date" name="date" />
+
+        <br><br>
+        <!--age-->
+        <label for="age">What is your age?</label> 
+        <input type="number" name="age" max="20">
+
+        <br><br>
+
+        <!--submit only sends inputs that have names !!!-->
+        <input type="submit" value="click me to submit" />
+        <input type="reset" value="click me to reset" />
+
+    </form>
+    <br><br><br><br>
+    
+    
+
+
+
+</body>
+</html>

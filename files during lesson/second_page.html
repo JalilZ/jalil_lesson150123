@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">Visit first page</a>
+    <br><br>
+    <!--I asked chat GBT to create an html form-->
+    <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="gender">Gender:</label>
+        <br>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea id="comments" name="comments"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br><br><br><br>
+    
+</body>
+</html>
